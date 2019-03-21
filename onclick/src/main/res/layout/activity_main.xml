@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:columnCount="3"
+    android:orientation="horizontal" >
+    <EditText
+        android:id="@+id/et"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:layout_columnSpan="3"
+        android:inputType="none"/>
+    <Button android:text="1" android:onClick="addSymbol"/>
+    <Button android:text="2" android:onClick="addSymbol"/>
+    <Button android:text="3" android:onClick="addSymbol"/>
+    <Button android:text="4" android:onClick="addSymbol"/>
+    <Button android:text="5" android:onClick="addSymbol"/>
+    <Button android:text="6" android:onClick="addSymbol"/>
+    <Button android:text="7" android:onClick="addSymbol"/>
+    <Button android:text="8" android:onClick="addSymbol"/>
+    <Button android:text="9" android:onClick="addSymbol"/>
+    <Button android:text="+" android:onClick="addSymbol"/>
+    <Button android:text="0" android:onClick="addSymbol"/>
+    <Button android:text="=" android:onClick="compute"/>
+</GridLayout>

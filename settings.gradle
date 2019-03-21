@@ -1,0 +1,1 @@
+include ':app', ':verticalhorisontalswitch', ':onclick', ':menu', ':simpleanimation'
