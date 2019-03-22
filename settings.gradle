@@ -1,1 +1,1 @@
-include ':app', ':verticalhorisontalswitch', ':onclick', ':menu', ':simpleanimation'
+include ':app', ':verticalhorisontalswitch', ':onclick', ':menu', ':simpleanimation', ':twoactivities'
